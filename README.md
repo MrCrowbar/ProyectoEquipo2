@@ -1,9 +1,10 @@
 # ProyectoEquipo2
 Repositorio del equipo 2 de la matera de procesamiento de Lenguaje Natural
 ### Integrantes
-* Julio Césasr
-* David Vague
-* 
+* Julio César García
+* David Garza
+* Gustavo Ríos
+* Jacobo Cruz
 
 
 ## Entorno de implementación
