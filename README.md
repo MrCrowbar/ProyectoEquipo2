@@ -50,7 +50,9 @@ Los archivos necesarios para ejecutar el proyecto se encuentran en esta [carpeta
 
 De igual manera se ha incluído un archivo 'requirements.txt' en el cual se mencionan las bibliotecas necesarias para correr el script. 
 
- 
+## OBSERVACIONES EXTRAS
+Al inicio del COLAB viene la estructura del programa. *NO* se deben ejecutar todas las celdas puesto que la ejecución de Colab se queda sin memoria RAM y truena. La mayoría de las celdas son el compendio de todo el proceso que se llevó a cabo, el objetivo es ilustrar los pasos necesarios.
+Con que se incluyan las librerías y utilerías se pueden pasar directamente a la parte de inferencias con los mejores pesos que se obtuvieron.
 
 ## Base de datos
 Enlace a la base de datos utilizada: https://sail.usc.edu/iemocap/
