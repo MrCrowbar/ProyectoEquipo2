@@ -34,6 +34,8 @@ Se complementaron los fragmentos de audio originales de IEMOCAP para proveer una
 
 Se logró conseguir resultados de hasta 80% de precisión tanto con el módulo de análisis de BERT como con M11, dando como resultado un sistema capaz de analizar entradas de audio y texto (o pasar una entrada de audio a texto), analizando tanto los aspectos semánticos como los aspectos auditivos de las entradas. 
 
+Para visualizar los resultados de forma más gráfica, hemos plasmado nuestros resultados y motivos detrás de este trabajo en el siguiente [póster académico](https://drive.google.com/file/d/16whBIQsrSBjzAK8Jcwbz-kL9XE8Cowzr/view?usp=sharing) 
+
 
 ### Integrantes
 * Julio César García
