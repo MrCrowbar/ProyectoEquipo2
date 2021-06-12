@@ -1,6 +1,6 @@
 # Analizador de sentimientos verbales y escritos. 
 
-#### El código que se encuentra en este repositorio fue desarrollado con la intención de que este fuese utilizado como una herramienta complementaria en tareas de detección temprana de síntomas de depresión. 
+#### El código que se encuentra en este repositorio fue desarrollado con la intención de que este fuese utilizado como una herramienta complementaria en tareas de detección temprana de síntomas de depresión. La versión de Python utilizada, fue la 3.7.10.
 
 Utilizando modelos considerados dentro del estado del arte en el área de procesamiento del lenguaje natural, el modelo resulta útil para analizar tanto fragmentos de texto como de audio. Es capaz de realizar inferencias no solo en base a la semántica del fragmento que esté analizando, sino también en base a otros aspectos relacionados con el habla (tales como la velocidad o el tono), entregando de esta forma resultados más robustos bajo un sistema de carácter redundante (es decir con una doble certeza al momento de análizar fragmentos de sónido).
 
