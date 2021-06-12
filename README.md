@@ -25,11 +25,14 @@ El modelo fue entrenado utilizando las transcripciones y grabaciones.
 Para aumentar el volumen de información para entrenamiento, se llevó a cabo procesos para el aumento de datos en ambos níveles. 
 
 ### Aumento de datos para audio: 
-
+Se utilizó TorchAudio y sox para modificar ciertos aspectos de los audios muestra tales como la velocidad o el tono y de esta forma, generar nuevos datos. 
 ### Aumento de datos para texto:
-
+Se utilizó la biblioteca NLP AUG, la cual nos permitió utilizar BERT para generar nuevas oraciones para el Dataset de Texto. 
 ## Resultados Obtenidos: 
+Se logró acumular un total de 9000 datos dentro de un Dataset balanceado en el área de texto. 
+Se complementaron los fragmentos de audio originales de IEMOCAP para proveer una base robusta de entrenamiento para el modelo M11. 
 
+Se logró conseguir resultados de hasta 80% de precisión tanto con el módulo de análisis de BERT como con M11, dando como resultado un sistema capaz de analizar entradas de audio y texto (o pasar una entrada de audio a texto), analizando tanto los aspectos semánticos como los aspectos auditivos de las entradas. 
 
 
 ### Integrantes
@@ -44,6 +47,8 @@ La implementación del proyecto se encuentra en Google Colab por lo que no es ne
 Los archivos necesarios para ejecutar el proyecto se encuentran en esta [carpeta](https://drive.google.com/drive/folders/1f7iqqmGVeLMWsZp_4v4rY02mGnyxDVS6?usp=sharing) compartida.
 
 De igual manera se ha incluído un archivo 'requirements.txt' en el cual se mencionan las bibliotecas necesarias para correr el script. 
+
+ 
 
 ## Base de datos
 Enlace a la base de datos utilizada: https://sail.usc.edu/iemocap/
